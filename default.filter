@@ -1,5 +1,5 @@
 // +----------------------------------------------------------------------------+
-// |     Fusca's Loot Filter                                                    |
+// |     Fusca's Loot Filter 1.0                                                |
 // |     MIBR - Made In Brazil                                                  |
 // |     PT/BR - English                                                        |
 // +----------------------------------------------------------------------------+
@@ -1003,7 +1003,7 @@ ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 xtp]: %DARK_GREEN%%NAME%%BLUE% +15%ED %D
 //
 //	Dusk Shroud
 //
-ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]: %DARK_GREEN%ETH %NAME% %GRAY%%DOT-1E%%PX-00% // high def
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 uui DEF>664]: %DARK_GREEN%ETH %NAME% %GRAY%%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<12 uui]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=12 uui]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=13 uui]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP ED 13
@@ -1022,7 +1022,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uui]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Wyrmhide
 //
-ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]: %DARK_GREEN% %NAME% %GRAY%%DOT-1E%%PX-00% // high def
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 uea DEF>668]: %DARK_GREEN% %NAME% %GRAY%%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<12 uea]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=12 uea]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=13 uea]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP ED 13
@@ -1041,7 +1041,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 uea]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00
 //
 //	scarab husk
 //
-ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]: %DARK_GREEN%ETH %NAME% %GRAY%%DOT-1E%%PX-00% // high def
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 ula DEF>674]: %DARK_GREEN%ETH %NAME% %GRAY%%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<12 ula]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=12 ula]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=13 ula]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP ED 13
@@ -1232,17 +1232,17 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uth]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Sacred Armor
 //
-ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>795]: %DARK_GREEN%ETH %NAME% %GRAY%%DOT-1E%%PX-00% // high def
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<12 uar]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=12 uar]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=13 uar]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP ED 13
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=14 uar]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP ED 14
-ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 uar]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP ED 15
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED>0 ED<12 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-11
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED=12 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +12%ED  %DOT-1E%%PX-00% // SUP, ETH, ED+12
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED=13 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ETH, ED+13
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED=14 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ETH, ED+14
-ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ETH, ED+15
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 uar DEF>795]: %DARK_GREEN%ETH %NAME% %GRAY%%DOT-1E%%PX-00% // high def
+ItemDisplay[NMAG !INF !ETH !RW !SOCK=1 ED>0 ED<12 uar]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
+ItemDisplay[NMAG !INF !ETH !RW !SOCK=1 ED=12 uar]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
+ItemDisplay[NMAG !INF !ETH !RW !SOCK=1 ED=13 uar]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP ED 13
+ItemDisplay[NMAG !INF !ETH !RW !SOCK=1 ED=14 uar]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP ED 14
+ItemDisplay[NMAG !INF !ETH !RW !SOCK=1 ED=15 uar]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP ED 15
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 ED>0 ED<12 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-11
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 ED=12 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +12%ED  %DOT-1E%%PX-00% // SUP, ETH, ED+12
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 ED=13 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ETH, ED+13
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 ED=14 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ETH, ED+14
+ItemDisplay[NMAG !INF ETH !RW !SOCK=1 ED=15 uar]: %DARK_GREEN%ETH %NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ETH, ED+15
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uar]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 3 OS
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 uar]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // SUP, 3 OS
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 uar]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // ETH, 3 OS
@@ -1294,20 +1294,20 @@ ItemDisplay[NMAG !INF ETH !RW (SOCK=0 OR SOCK=3) ED=15 uh9]: %DARK_GREEN%%NAME%%
 //
 //      Diadem
 //
-ItemDisplay[NMAG !ETH !RW SOCK=0 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // 0 OS
-ItemDisplay[NMAG !ETH !RW SOCK=3 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // 3 OS
-ItemDisplay[NMAG !ETH !RW (SOCK=0 OR SOCK=3) ED>0 ED<12 ci3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ED 1-11
-ItemDisplay[NMAG !ETH !RW (SOCK=0 OR SOCK=3) ED=12 ci3]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP, ED 12
-ItemDisplay[NMAG !ETH !RW (SOCK=0 OR SOCK=3) ED=13 ci3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ED 13
-ItemDisplay[NMAG !ETH !RW (SOCK=0 OR SOCK=3) ED=14 ci3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ED 14
-ItemDisplay[NMAG !ETH !RW (SOCK=0 OR SOCK=3) ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ED 15
-ItemDisplay[NMAG ETH !RW SOCK=0 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 0 OS
-ItemDisplay[NMAG ETH !RW SOCK=3 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
-ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=3) ED>0 ED<12 ci3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // ETH, SUP, ED 1-11
-ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=3) ED=12 ci3]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // ETH, SUP, ED 12
-ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=3) ED=13 ci3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // ETH, SUP, ED 13
-ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=3) ED=14 ci3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // ETH, SUP, ED 14
-ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=3) ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // ETH, SUP, ED 15
+ItemDisplay[NMAG !INF !ETH !RW SOCK=0 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // 0 OS
+ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // 3 OS
+ItemDisplay[NMAG !INF !ETH !RW (SOCK=0 OR SOCK=3) ED>0 ED<12 ci3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ED 1-11
+ItemDisplay[NMAG !INF !ETH !RW (SOCK=0 OR SOCK=3) ED=12 ci3]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP, ED 12
+ItemDisplay[NMAG !INF !ETH !RW (SOCK=0 OR SOCK=3) ED=13 ci3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ED 13
+ItemDisplay[NMAG !INF !ETH !RW (SOCK=0 OR SOCK=3) ED=14 ci3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ED 14
+ItemDisplay[NMAG !INF !ETH !RW (SOCK=0 OR SOCK=3) ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ED 15
+ItemDisplay[NMAG !INF ETH !RW SOCK=0 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 0 OS
+ItemDisplay[NMAG !INF ETH !RW SOCK=3 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
+ItemDisplay[NMAG !INF ETH !RW (SOCK=0 OR SOCK=3) ED>0 ED<12 ci3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // ETH, SUP, ED 1-11
+ItemDisplay[NMAG !INF ETH !RW (SOCK=0 OR SOCK=3) ED=12 ci3]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // ETH, SUP, ED 12
+ItemDisplay[NMAG !INF ETH !RW (SOCK=0 OR SOCK=3) ED=13 ci3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // ETH, SUP, ED 13
+ItemDisplay[NMAG !INF ETH !RW (SOCK=0 OR SOCK=3) ED=14 ci3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // ETH, SUP, ED 14
+ItemDisplay[NMAG !INF ETH !RW (SOCK=0 OR SOCK=3) ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // ETH, SUP, ED 15
 //
 //
 //
@@ -1316,48 +1316,48 @@ ItemDisplay[NMAG ETH !RW (SOCK=0 OR SOCK=3) ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE%
 //
 //	Monarch
 //
-ItemDisplay[uit !ETH !RW SOCK=4 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   //4 OS
-ItemDisplay[uit !ETH SOCK=0 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   // 0 OS
-ItemDisplay[uit ETH SOCK=0 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   // ETH, 0 OS
-ItemDisplay[uit ETH SOCK=4 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   // ETH, 4 OS
-ItemDisplay[uit !ETH !RW NMAG SUP SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%  //SUP, ED 0-13, 0OS
-ItemDisplay[uit !ETH !RW NMAG SUP ED=14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 0 OS
-ItemDisplay[uit !ETH !RW NMAG SUP ED=15 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED 15, 0 OS
-ItemDisplay[uit !ETH !RW NMAG SUP ED>0 ED<13 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%   //SUP, ED 0-12, 4OS
-ItemDisplay[uit !ETH !RW NMAG SUP ED=13 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00%   //SUP, ED 13, 4 OS
-ItemDisplay[uit !ETH !RW NMAG SUP ED=14 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 4 OS
-ItemDisplay[uit !ETH !RW NMAG SUP ED=15 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED15, 4 OS
+ItemDisplay[uit !INF !ETH !RW SOCK=4 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   //4 OS
+ItemDisplay[uit !INF !ETH SOCK=0 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   // 0 OS
+ItemDisplay[uit !INF ETH SOCK=0 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   // ETH, 0 OS
+ItemDisplay[uit !INF ETH SOCK=4 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   // ETH, 4 OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%  //SUP, ED 0-13, 0OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP ED=14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 0 OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP ED=15 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED 15, 0 OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP ED>0 ED<13 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%   //SUP, ED 0-12, 4OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP ED=13 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00%   //SUP, ED 13, 4 OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP ED=14 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 4 OS
+ItemDisplay[uit !INF !ETH !RW NMAG SUP ED=15 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED15, 4 OS
 //
 //
 //	Troll Nest
 //
-ItemDisplay[ush !ETH !RW NMAG ED>0 ED<14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%   //SUP, ED 0-13, 0OS
-ItemDisplay[ush !ETH !RW NMAG ED=14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 0 OS
-ItemDisplay[ush !ETH !RW NMAG ED=15 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED 15, 0 OS
-ItemDisplay[ush !ETH !RW NMAG ED>0 ED<13 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%   //SUP, ED 0-12, 3OS
-ItemDisplay[ush !ETH !RW NMAG ED=13 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00%   //SUP, ED 13, 3 OS
-ItemDisplay[ush !ETH !RW NMAG ED=14 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 3 OS
-ItemDisplay[ush !ETH !RW NMAG ED=15 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED15, 3 OS
-ItemDisplay[ush !ETH !RW NMAG ITEMSTAT91=-10 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% -10%REQ %DOT-1E%%PX-00%   // SUP, REQ -10, 0 OS
-ItemDisplay[ush !ETH !RW NMAG ITEMSTAT91=-10 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% -10%REQ %DOT-1E%%PX-00%   // SUP, REQ -10, 3 OS
-ItemDisplay[ush !ETH !RW NMAG (ITEMSTAT91>-10 && ITEMSTAT91<-1) SOCK=0]: %DARK_GREEN%%NAME%%BLUE% -%REQ %DOT-1E%%PX-00%   // SUP, REQ 0-9, 0 OS
-ItemDisplay[ush !ETH !RW NMAG (ITEMSTAT91>-10 && ITEMSTAT91<-1) SOCK=3]: %DARK_GREEN%%NAME%%BLUE% -%REQ %DOT-1E%%PX-00%   // SUP, REQ 0-9, 3 OS
-ItemDisplay[ush !ETH !RW SOCK=3 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   //3 OS
-ItemDisplay[ush !ETH SOCK=0 NMAG]: %NAME% %DOT-1E%%PX-00%   // 0 OS
-ItemDisplay[ush ETH SOCK=0 NMAG]: ETH %NAME% %DOT-1E%%PX-00%   // ETH, 0 OS
-ItemDisplay[ush ETH SOCK=3 NMAG]: ETH %NAME% %DOT-1E%%PX-00%   // ETH, 3 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED>0 ED<14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%   //SUP, ED 0-13, 0OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED=14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 0 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED=15 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED 15, 0 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED>0 ED<13 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00%   //SUP, ED 0-12, 3OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED=13 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00%   //SUP, ED 13, 3 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED=14 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00%   //SUP, ED 14, 3 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ED=15 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00%   //SUP, ED15, 3 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ITEMSTAT91=-10 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% -10%REQ %DOT-1E%%PX-00%   // SUP, REQ -10, 0 OS
+ItemDisplay[ush !INF !ETH !RW NMAG ITEMSTAT91=-10 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% -10%REQ %DOT-1E%%PX-00%   // SUP, REQ -10, 3 OS
+ItemDisplay[ush !INF !ETH !RW NMAG (ITEMSTAT91>-10 && ITEMSTAT91<-1) SOCK=0]: %DARK_GREEN%%NAME%%BLUE% -%REQ %DOT-1E%%PX-00%   // SUP, REQ 0-9, 0 OS
+ItemDisplay[ush !INF !ETH !RW NMAG (ITEMSTAT91>-10 && ITEMSTAT91<-1) SOCK=3]: %DARK_GREEN%%NAME%%BLUE% -%REQ %DOT-1E%%PX-00%   // SUP, REQ 0-9, 3 OS
+ItemDisplay[ush !INF !ETH !RW SOCK=3 NMAG]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%   //3 OS
+ItemDisplay[ush !INF !ETH SOCK=0 NMAG]: %NAME% %DOT-1E%%PX-00%   // 0 OS
+ItemDisplay[ush !INF ETH SOCK=0 NMAG]: ETH %NAME% %DOT-1E%%PX-00%   // ETH, 0 OS
+ItemDisplay[ush !INF ETH SOCK=3 NMAG]: ETH %NAME% %DOT-1E%%PX-00%   // ETH, 3 OS
 //
 //
 // 17.4 PALADIN SHIELDS  COD: 0091704
 //
 //
 //	Todos escudos de paladino - All paladin shields
-ItemDisplay[CL3 !ETH NMAG RES>39 !SOCK=1 !SOCK=0]: %DARK_GREEN%%NAME%%BLUE% 40+ RES %DOT-1E%%PX-00%   // RES 40+
-ItemDisplay[CL3 !ETH NMAG RES>39 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% 40+ RES %DOT-1E%%PX-00% // RES 40+ , 0OS
+ItemDisplay[CL3 !INF !ETH NMAG RES>39 !SOCK=1 !SOCK=0]: %DARK_GREEN%%NAME%%BLUE% 40+ RES %DOT-1E%%PX-00%   // RES 40+
+ItemDisplay[CL3 !INF !ETH NMAG RES>39 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% 40+ RES %DOT-1E%%PX-00% // RES 40+ , 0OS
 //
 //	Escudos Elite - Elite Paladin Shields
-ItemDisplay[CL3 ELT !ETH NMAG RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DARK_GREEN%ETH %NAME%%BLUE% 40+ RES %DOT-1E%%PX-00% // 0 OS, 3 OS, 4 OS
-ItemDisplay[CL3 ELT ETH NMAG RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DARK_GREEN%ETH %NAME%%BLUE% 40+ RES %DOT-1E%%PX-00% // ETH, 0 OS, 3 OS, 4 OS
+ItemDisplay[CL3 !INF ELT !ETH NMAG RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DARK_GREEN%ETH %NAME%%BLUE% 40+ RES %DOT-1E%%PX-00% // 0 OS, 3 OS, 4 OS
+ItemDisplay[CL3 !INF ELT ETH NMAG RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DARK_GREEN%ETH %NAME%%BLUE% 40+ RES %DOT-1E%%PX-00% // ETH, 0 OS, 3 OS, 4 OS
 //
 //
 // 17.5 SWORDS  COD: 0091705
@@ -1365,8 +1365,8 @@ ItemDisplay[CL3 ELT ETH NMAG RES>39 (SOCK=0 OR SOCK=3 OR SOCK=4)]: %DARK_GREEN%E
 //
 //	Crystal Sword
 //
-ItemDisplay[crs !ETH NMAG SOCK>2]: %NAME%%DOT-1E% // 3+ OS
-ItemDisplay[crs ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E% // ETH, 3+ OS
+ItemDisplay[crs !INF !ETH NMAG SOCK>2]: %NAME%%DOT-1E% // 3+ OS
+ItemDisplay[crs !INF ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E% // ETH, 3+ OS
 //Larzuk Gaurantee = SPIRIT
 ItemDisplay[crs NMAG !INF !SUP SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %DARK_GREEN%%NAME%{%TAN%Use Larzuk quest in act 5 for 4 OS}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
 ItemDisplay[crs !ETH !RW !INF !SUP NMAG ED=15 (SOCK=0 OR SOCK>2)]: %NAME%%BLUE% 15%ED %DOT-1E%%PX-00% // SUP, ED +15, 0 OS , 3+ OS
@@ -1374,52 +1374,52 @@ ItemDisplay[crs !ETH !RW !INF !SUP NMAG ED=15 (SOCK=0 OR SOCK>2)]: %NAME%%BLUE% 
 //
 //	Broad Sword
 //
-ItemDisplay[bsd CLVL<55 !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4 OS
-ItemDisplay[bsd CLVL>54 !ETH NMAG SOCK=4]: //para de aparecer no lvl 54 - stop appearing at lvl 54
+ItemDisplay[bsd !INF CLVL<55 !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4 OS
+ItemDisplay[bsd !INF CLVL>54 !ETH NMAG SOCK=4]: //para de aparecer no lvl 54 - stop appearing at lvl 54
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[bsd !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%TAN%Use Larzuk quest in act 5 to make Spirit}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
+ItemDisplay[bsd !INF !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%TAN%Use Larzuk quest in act 5 to make Spirit}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
 //
 //
 //	Long Sword
 //
-ItemDisplay[lsd ETH NMAG SOCK=3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
-ItemDisplay[lsd CLVL<55 !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% //4 OS
-ItemDisplay[lsd CLVL>54 !ETH NMAG SOCK=4]://para de aparecer no lvl 54 - stop appearing at lvl 54
+ItemDisplay[lsd !INF ETH NMAG SOCK=3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
+ItemDisplay[lsd !INF CLVL<55 !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% //4 OS
+ItemDisplay[lsd !INF CLVL>54 !ETH NMAG SOCK=4]://para de aparecer no lvl 54 - stop appearing at lvl 54
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[lsd NMAG !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%TAN%Use Larzuk quest in act 5 to make Spirit}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
+ItemDisplay[lsd !INF NMAG !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%TAN%Use Larzuk quest in act 5 to make Spirit}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
 //
 //
 //	Dimensional Blade
 //
-ItemDisplay[9cr !ETH !RW NMAG ED=15 !SOCK=1]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ED +15
-ItemDisplay[9cr !ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% //3+ OS
-ItemDisplay[9cr ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3+ OS
+ItemDisplay[9cr !INF !ETH !RW NMAG ED=15 !SOCK=1]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ED +15
+ItemDisplay[9cr !INF !ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% //3+ OS
+ItemDisplay[9cr !INF ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3+ OS
 //
 //
 //	Phase Blade
 //
-ItemDisplay[7cr !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 0 OS
-ItemDisplay[7cr !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
-ItemDisplay[7cr !RW NMAG ED>0 ED<12 SOCK>1]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%%DOT-1E%%PX-00% //SUP, ED 1-11, 2+ OS
-ItemDisplay[7cr !RW NMAG ED>11 SOCK>1]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 2+ OS
+ItemDisplay[7cr !INF !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 0 OS
+ItemDisplay[7cr !INF !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
+ItemDisplay[7cr !INF !RW NMAG ED>0 ED<12 SOCK>1]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%%DOT-1E%%PX-00% //SUP, ED 1-11, 2+ OS
+ItemDisplay[7cr !INF !RW NMAG ED>11 SOCK>1]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 2+ OS
 //
 //
 //	Conquest Sword 
 //
-ItemDisplay[7bs ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 0OS
-ItemDisplay[7bs ETH !RW NMAG SOCK=3]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 3OS
-ItemDisplay[7bs ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-13, 3 OS
-ItemDisplay[7bs ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ETH, ED 14+, 3OS
+ItemDisplay[7bs !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 0OS
+ItemDisplay[7bs !INF ETH !RW NMAG SOCK=3]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 3OS
+ItemDisplay[7bs !INF ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-13, 3 OS
+ItemDisplay[7bs !INF ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ETH, ED 14+, 3OS
 //
 //
 //	Cryptic Sword
 //
-ItemDisplay[7ls ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 0OS
-ItemDisplay[7ls ETH !RW NMAG SOCK=3]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 3OS
-ItemDisplay[7ls !ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-13, 3 OS
-ItemDisplay[7ls !ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ED 14+, 3OS
-ItemDisplay[7ls ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-13, 3 OS
-ItemDisplay[7ls ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ETH, ED 14+, 3OS
+ItemDisplay[7ls !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 0OS
+ItemDisplay[7ls !INF ETH !RW NMAG SOCK=3]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 3OS
+ItemDisplay[7ls !INF !ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-13, 3 OS
+ItemDisplay[7ls !INF !ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ED 14+, 3OS
+ItemDisplay[7ls !INF ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-13, 3 OS
+ItemDisplay[7ls !INF ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ETH, ED 14+, 3OS
 //
 //
 // *** 	Two-Handed Swords ***
@@ -1427,50 +1427,50 @@ ItemDisplay[7ls ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PU
 //
 //	Legend Sword 
 //
-ItemDisplay[72h !ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%// 0 OS
-ItemDisplay[72h !ETH !RW NMAG SOCK=3]: %DARK_GREEN%%NAME% %GRAY%%DOT-1E%%PX-00% // 3 OS
-ItemDisplay[72h ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%// ETH, 0 OS
-ItemDisplay[72h ETH !RW NMAG SOCK=3]: %DARK_GREEN%%NAME% %GRAY%%DOT-1E%%PX-00% // ETH, 3 OS
-ItemDisplay[72h !ETH !RW NMAG ED>0 ED<12 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, 3 OS
-ItemDisplay[72h !ETH !RW NMAG ED>11 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, OS
-ItemDisplay[72h ETH !RW NMAG ED>0 ED<12 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-11, 3 OS
-ItemDisplay[72h ETH !RW NMAG ED>11 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, OS
+ItemDisplay[72h !INF !ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%// 0 OS
+ItemDisplay[72h !INF !ETH !RW NMAG SOCK=3]: %DARK_GREEN%%NAME% %GRAY%%DOT-1E%%PX-00% // 3 OS
+ItemDisplay[72h !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00%// ETH, 0 OS
+ItemDisplay[72h !INF ETH !RW NMAG SOCK=3]: %DARK_GREEN%%NAME% %GRAY%%DOT-1E%%PX-00% // ETH, 3 OS
+ItemDisplay[72h !INF !ETH !RW NMAG ED>0 ED<12 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, 3 OS
+ItemDisplay[72h !INF !ETH !RW NMAG ED>11 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, OS
+ItemDisplay[72h !INF ETH !RW NMAG ED>0 ED<12 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-11, 3 OS
+ItemDisplay[72h !INF ETH !RW NMAG ED>11 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, OS
 //
 //
 //	Colossus Sword
 //
-ItemDisplay[7fb !ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %WHITE% // 0 OS
-ItemDisplay[7fb !ETH !RW NMAG SOCK>2]: %DARK_GREEN% %NAME% %WHITE% // 3+ OS
-ItemDisplay[7fb ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %WHITE% // ETH, 0 OS
-ItemDisplay[7fb ETH !RW NMAG SOCK>2]: %DARK_GREEN% %NAME% %WHITE% // ETH, 3+ OS
-ItemDisplay[7fb !ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 3+ OS
-ItemDisplay[7fb !ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 3+ OS
-ItemDisplay[7fb ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ETH, ED 1-11, 3+ OS
-ItemDisplay[7fb ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, 3+ OS
+ItemDisplay[7fb !INF !ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %WHITE% // 0 OS
+ItemDisplay[7fb !INF !ETH !RW NMAG SOCK>2]: %DARK_GREEN% %NAME% %WHITE% // 3+ OS
+ItemDisplay[7fb !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME% %WHITE% // ETH, 0 OS
+ItemDisplay[7fb !INF ETH !RW NMAG SOCK>2]: %DARK_GREEN% %NAME% %WHITE% // ETH, 3+ OS
+ItemDisplay[7fb !INF !ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 3+ OS
+ItemDisplay[7fb !INF !ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 3+ OS
+ItemDisplay[7fb !INF ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ETH, ED 1-11, 3+ OS
+ItemDisplay[7fb !INF ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, 3+ OS
 //
 //
 //	Colossus Blade
 //
-ItemDisplay[7gd !ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %WHITE% // 0 OS
-ItemDisplay[7gd !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %WHITE% // 3+ OS
-ItemDisplay[7gd ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %WHITE% // ETH, 0 OS
-ItemDisplay[7gd ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %WHITE% // ETH, 3+ OS
-ItemDisplay[7gd !ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 3+ OS
-ItemDisplay[7gd !ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 3+ OS
-ItemDisplay[7gd ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ETH, ED 1-11, 3+ OS
-ItemDisplay[7gd ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, 3+ OS
+ItemDisplay[7gd !INF !ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %WHITE% // 0 OS
+ItemDisplay[7gd !INF !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %WHITE% // 3+ OS
+ItemDisplay[7gd !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% %WHITE% // ETH, 0 OS
+ItemDisplay[7gd !INF ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %WHITE% // ETH, 3+ OS
+ItemDisplay[7gd !INF !ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 3+ OS
+ItemDisplay[7gd !INF !ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 3+ OS
+ItemDisplay[7gd !INF ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ETH, ED 1-11, 3+ OS
+ItemDisplay[7gd !INF ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, 3+ OS
 //
 //
 // 17.6 AXES  COD: 0091706
 //
-ItemDisplay[7wa !ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% // 0 OS
-ItemDisplay[7wa !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %WHITE% // 4+ OS
-ItemDisplay[7wa ETH !RW NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %WHITE% // ETH, 0 OS
-ItemDisplay[7wa ETH !RW NMAG SOCK>3]: %DARK_GREEN%ETH %NAME% %WHITE% // ETH, 4+ OS
-ItemDisplay[7wa !ETH !RW NMAG ED>0 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 4+ OS
-ItemDisplay[7wa !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 4+ OS
-ItemDisplay[7wa ETH !RW NMAG ED>0 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7wa ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7wa !INF !ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME% // 0 OS
+ItemDisplay[7wa !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %WHITE% // 4+ OS
+ItemDisplay[7wa !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %WHITE% // ETH, 0 OS
+ItemDisplay[7wa !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%ETH %NAME% %WHITE% // ETH, 4+ OS
+ItemDisplay[7wa !INF !ETH !RW NMAG ED>0 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 4+ OS
+ItemDisplay[7wa !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 4+ OS
+ItemDisplay[7wa !INF ETH !RW NMAG ED>0 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7wa !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ETH, ED 12+, 4+ OS
 //
 //
 // 17.7 MACES  COD: 0091707
@@ -1478,45 +1478,45 @@ ItemDisplay[7wa ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT
 //
 //	Flail 
 //
-ItemDisplay[fla !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[fla ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[fla !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[fla ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[fla !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[fla !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[fla !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[fla !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Knout 
 //
-ItemDisplay[9fl !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9fl ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9fl !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9fl ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[9fl !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9fl !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9fl !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9fl !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Scourge
 //
-ItemDisplay[9fl !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9fl ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9fl !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9fl ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[9fl ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[9fl !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9fl !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9fl !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9fl !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[9fl !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 //	Legendary Mallet
 //
-ItemDisplay[7wh !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
-ItemDisplay[7wh ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
-ItemDisplay[7wh !ETH !RW NMAG ED=15 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 3+ OS
-ItemDisplay[7wh ETH !RW NMAG ED>1 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 3+ OS
-ItemDisplay[7wh ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 3+ OS
+ItemDisplay[7wh !INF !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
+ItemDisplay[7wh !INF ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
+ItemDisplay[7wh !INF !ETH !RW NMAG ED=15 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 3+ OS
+ItemDisplay[7wh !INF ETH !RW NMAG ED>1 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 3+ OS
+ItemDisplay[7wh !INF ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 3+ OS
 //
 //
 //	Thunder Maul
 //
-ItemDisplay[7wh !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
-ItemDisplay[7wh ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
-ItemDisplay[7wh !ETH !RW NMAG ED=15 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 3+ OS
-ItemDisplay[7wh ETH !RW NMAG ED>1 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 3+ OS
-ItemDisplay[7wh ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 3+ OS
+ItemDisplay[7wh !INF !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
+ItemDisplay[7wh !INF ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3+ OS
+ItemDisplay[7wh !INF !ETH !RW NMAG ED=15 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 3+ OS
+ItemDisplay[7wh !INF ETH !RW NMAG ED>1 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 3+ OS
+ItemDisplay[7wh !INF ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 3+ OS
 //
 //
 // 17.8 POLEARMS  COD: 0091708
@@ -1524,183 +1524,183 @@ ItemDisplay[7wh ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT
 //
 //	Voulge
 //
-ItemDisplay[vou !ETH !RW NMAG SOCK>3 CLVL<66]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-//ItemDisplay[vou !ETH !RW NMAG SOCK<7 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
-ItemDisplay[vou ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[vou !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[vou ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[vou !INF !ETH !RW NMAG SOCK>3 CLVL<66]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+//ItemDisplay[vou !INF !ETH !RW NMAG SOCK<7 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
+ItemDisplay[vou !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[vou !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[vou !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //	Scythe
 //
-ItemDisplay[scy !ETH !RW NMAG SOCK>3 CLVL<60]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[scy !ETH !RW NMAG SOCK>3 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
-ItemDisplay[scy ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[scy !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[scy ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[scy !INF !ETH !RW NMAG SOCK>3 CLVL<60]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[scy !INF !ETH !RW NMAG SOCK>3 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
+ItemDisplay[scy !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[scy !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[scy !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //	Poleaxe
 //
-ItemDisplay[pax !ETH !RW NMAG SOCK>3 CLVL<60]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[pax !ETH !RW NMAG SOCK>3 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
-ItemDisplay[pax ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[pax !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[pax ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[pax !INF !ETH !RW NMAG SOCK>3 CLVL<60]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[pax !INF !ETH !RW NMAG SOCK>3 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
+ItemDisplay[pax !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[pax !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[pax !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Halberd
 //
-ItemDisplay[hal !ETH !RW NMAG SOCK>3 CLVL<60]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[hal !ETH !RW NMAG SOCK>3 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
-ItemDisplay[hal ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[hal !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[hal ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[hal !INF !ETH !RW NMAG SOCK>3 CLVL<60]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[hal !INF !ETH !RW NMAG SOCK>3 CLVL>59]: //para de aparecer no lvl 60 - stop appearing at lvl 60
+ItemDisplay[hal !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[hal !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[hal !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	War Scythe
 //
-ItemDisplay[wsc !ETH !RW NMAG SOCK>3 CLVL<55]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[wsc !ETH !RW NMAG SOCK>3 CLVL>54]: //para de aparecer no lvl 55 - stop appearing at lvl 55
-ItemDisplay[wsc ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[wsc !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[wsc ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[wsc !INF !ETH !RW NMAG SOCK>3 CLVL<55]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[wsc !INF !ETH !RW NMAG SOCK>3 CLVL>54]: //para de aparecer no lvl 55 - stop appearing at lvl 55
+ItemDisplay[wsc !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[wsc !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[wsc !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Bill
 //
-ItemDisplay[9vo !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9vo !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
-ItemDisplay[9vo ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[9vo !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9vo ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[9vo !INF !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9vo !INF !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
+ItemDisplay[9vo !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[9vo !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9vo !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Battle Scythe
 //
-ItemDisplay[9s8 !ETH !RW NMAG SOCK>3 CLVL<75]: %GRAY%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9s8 !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
-ItemDisplay[9s8 ETH !RW NMAG SOCK>3]: ETH %GRAY%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[9s8 !ETH !RW NMAG ED=15 SOCK>3]: %GRAY%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9s8 ETH !RW NMAG ED=15 SOCK>3]: %GRAY%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[9s8 !INF !ETH !RW NMAG SOCK>3 CLVL<75]: %GRAY%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9s8 !INF !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
+ItemDisplay[9s8 !INF ETH !RW NMAG SOCK>3]: ETH %GRAY%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[9s8 !INF !ETH !RW NMAG ED=15 SOCK>3]: %GRAY%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9s8 !INF ETH !RW NMAG ED=15 SOCK>3]: %GRAY%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Partizan
 //
-ItemDisplay[9pa !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9pa !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
-ItemDisplay[9pa ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[9pa !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9pa ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[9pa !INF !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9pa !INF !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
+ItemDisplay[9pa !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[9pa !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9pa !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Bec-De-Corbin
 //
-ItemDisplay[9h9 !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9h9 !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
-ItemDisplay[9h9 ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[9h9 !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9h9 ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[9h9 !INF !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9h9 !INF !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
+ItemDisplay[9h9 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[9h9 !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9h9 !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Grim Scythe 
 //
-ItemDisplay[9wc !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[9wc !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
-ItemDisplay[9wc ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[9wc !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
-ItemDisplay[9wc ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
+ItemDisplay[9wc !INF !ETH !RW NMAG SOCK>3 CLVL<75]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[9wc !INF !ETH !RW NMAG SOCK>3 CLVL>74]: //para de aparecer no lvl 75 - stop appearing at lvl 75
+ItemDisplay[9wc !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[9wc !INF !ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ED 15, 4+ OS
+ItemDisplay[9wc !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% //SUP, ETH, ED 15, 4+ OS
 //
 //
 //	Thresher 
 //
-ItemDisplay[7s8 ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7s8 ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7s8 !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7s8 ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7s8 !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7s8 !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7s8 ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7s8 ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7s8 !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7s8 !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7s8 !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7s8 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7s8 !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7s8 !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7s8 !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7s8 !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 //	Cryptic Axe 
 //
-ItemDisplay[7pa ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7pa ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7pa !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7pa ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7pa !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7pa !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7pa ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7pa ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7pa !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7pa !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7pa !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7pa !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7pa !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7pa !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7pa !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7pa !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 //	Great Poleaxe
 //
-ItemDisplay[7h7 ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7h7 ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7h7 !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7h7 ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7h7 !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7h7 !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7h7 ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7h7 ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7h7 !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7h7 !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7h7 !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7h7 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7h7 !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7h7 !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7h7 !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7h7 !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 //Giant Thresher
 //
-ItemDisplay[7wc ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7wc ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7wc !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7wc ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7wc !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7wc !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7wc ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7wc ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7wc !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7wc !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7wc !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7wc !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7wc !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7wc !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7wc !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7wc !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 // 17.09 SPEARS COD: 0091709
 //
 //	Mancatcher 
 //
-ItemDisplay[7br ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7br ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7br !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7br ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7br !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7br !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7br ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7br ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7br !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7br !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7br !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7br !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7br !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7br !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7br !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7br !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 //	Ghost Spear
 //
-ItemDisplay[7st ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7st ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7st !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7st ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7st !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7st !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7st ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7st ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7st !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7st !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7st !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7st !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7st !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7st !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7st !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7st !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 //	War Pike
 //
-ItemDisplay[7p7 ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7p7 ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7p7 !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 4+ OS
-ItemDisplay[7p7 ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
-ItemDisplay[7p7 !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %%DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
-ItemDisplay[7p7 !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
-ItemDisplay[7p7 ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
-ItemDisplay[7p7 ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
+ItemDisplay[7p7 !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7p7 !INF ETH !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7p7 !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 4+ OS
+ItemDisplay[7p7 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
+ItemDisplay[7p7 !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %%DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
+ItemDisplay[7p7 !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
+ItemDisplay[7p7 !INF ETH !RW NMAG ED>1 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ETH, ED 1-11, 4+ OS
+ItemDisplay[7p7 !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+%DOT-1E%%PX-00% //SUP, ETH, ED 12+, 4+ OS
 //
 //
 // 17.10 STAVES COD: 0091710
 //
 //
-ItemDisplay[WP11 NMAG SOCK=2 SK47>2 CLVL<35]: %DARK_GREEN%%NAME% %ORANGE%+3 Fireball{%TAN%Leaf Base}%DOT-1E%%PX-00% // Leaf base
-ItemDisplay[WP11 NMAG SOCK=2 SK47>2 CLVL>34]: //para de aparecer no lvl 35 - stop appearing at lvl 35
+ItemDisplay[WP11 !INF NMAG SOCK=2 SK47>2 CLVL<35]: %DARK_GREEN%%NAME% %ORANGE%+3 Fireball{%TAN%Leaf Base}%DOT-1E%%PX-00% // Leaf base
+ItemDisplay[WP11 !INF NMAG SOCK=2 SK47>2 CLVL>34]: //para de aparecer no lvl 35 - stop appearing at lvl 35
 //
 //
 // 17.11 AMAZON BOWS COD: 0091711
@@ -1708,28 +1708,28 @@ ItemDisplay[WP11 NMAG SOCK=2 SK47>2 CLVL>34]: //para de aparecer no lvl 35 - sto
 //
 //	Ashwood Bow
 //
-ItemDisplay[am6 NMAG TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 0 OS
-ItemDisplay[am6 NMAG TABSK0>2 SOCK=3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 3 OS
-ItemDisplay[am6 NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 4 OS
-ItemDisplay[am6 NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
-ItemDisplay[am6 NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
+ItemDisplay[am6 !INF NMAG TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 0 OS
+ItemDisplay[am6 !INF NMAG TABSK0>2 SOCK=3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 3 OS
+ItemDisplay[am6 !INF NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 4 OS
+ItemDisplay[am6 !INF NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
+ItemDisplay[am6 !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
 //
 //
 //	Matriarchal Bow
 //
-ItemDisplay[amb NMAG TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 0 OS
-ItemDisplay[amb NMAG TABSK0>2 SOCK=3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 3 OS
-ItemDisplay[amb NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 4 OS
-ItemDisplay[amb NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
-ItemDisplay[amb NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
+ItemDisplay[amb !INF NMAG TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 0 OS
+ItemDisplay[amb !INF NMAG TABSK0>2 SOCK=3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 3 OS
+ItemDisplay[amb !INF NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 4 OS
+ItemDisplay[amb !INF NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
+ItemDisplay[amb !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
 //
 //
 //	Grand Matron Bow
 //
-ItemDisplay[amc NMAG TABSK0>2 SOCK=0]:%DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 0 OS
-ItemDisplay[amc NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 4 OS
-ItemDisplay[amc NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
-ItemDisplay[amc NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
+ItemDisplay[amc !INF NMAG TABSK0>2 SOCK=0]:%DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 0 OS
+ItemDisplay[amc !INF NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 4 OS
+ItemDisplay[amc !INF NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
+ItemDisplay[amc !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
 //
 //
 // 17.12 ASSASSIN CLAWS COD: 0091712
