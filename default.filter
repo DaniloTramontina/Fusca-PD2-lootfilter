@@ -1248,15 +1248,15 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 uar]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //      Demonhead
 //
-ItemDisplay[NMAG !INF !ETH !SUP !RW SOCK=0 usk]: %WHITE%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // 0 OS
-ItemDisplay[NMAG !INF !ETH !RW SOCK=3 usk]: %WHITE%%NAME% %DOT-1E%%PX-00% // 3 OS
+ItemDisplay[NMAG !INF !ETH !SUP !RW SOCK=0 usk]: %DARK_GREEN%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // 0 OS
+ItemDisplay[NMAG !INF !ETH !RW SOCK=3 usk]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3 OS
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED>0 ED<12 usk]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ED 1-11
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=12 usk]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP, ED 12
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=13 usk]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ED 13
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=14 usk]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ED 14
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=15 usk]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ED 15
-ItemDisplay[NMAG !INF ETH !SUP !RW SOCK=0 usk]: %WHITE%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // ETH, 0 OS
-ItemDisplay[NMAG !INF ETH !RW SOCK=3 usk]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
+ItemDisplay[NMAG !INF ETH !SUP !RW SOCK=0 usk]: %DARK_GREEN%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // ETH, 0 OS
+ItemDisplay[NMAG !INF ETH !RW SOCK=3 usk]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED>0 ED<12 usk]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // ETH, SUP, ED 1-11
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=12 usk]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // ETH, SUP, ED 12
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=13 usk]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // ETH, SUP, ED 13
@@ -1266,15 +1266,15 @@ ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=15 usk]: %DARK_GREEN%%NAME%%BLUE% +15%ED
 //
 //      Bone Visage
 //
-ItemDisplay[NMAG !INF !ETH !SUP !RW SOCK=0 uh9]: %WHITE%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // 0 OS
-ItemDisplay[NMAG !INF !ETH !RW SOCK=3 uh9]: %WHITE%%NAME% %DOT-1E%%PX-00% // 3 OS
+ItemDisplay[NMAG !INF !ETH !SUP !RW SOCK=0 uh9]: %DARK_GREEN%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // 0 OS
+ItemDisplay[NMAG !INF !ETH !RW SOCK=3 uh9]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3 OS
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED>0 ED<12 uh9]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ED 1-11
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=12 uh9]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP, ED 12
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=13 uh9]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ED 13
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=14 uh9]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ED 14
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=15 uh9]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ED 15
-ItemDisplay[NMAG !INF ETH !SUP !RW SOCK=0 uh9]: %WHITE%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // ETH, 0 OS
-ItemDisplay[NMAG !INF ETH !RW SOCK=3 uh9]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
+ItemDisplay[NMAG !INF ETH !SUP !RW SOCK=0 uh9]: %DARK_GREEN%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // ETH, 0 OS
+ItemDisplay[NMAG !INF ETH !RW SOCK=3 uh9]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED>0 ED<12 uh9]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // ETH, SUP, ED 1-11
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=12 uh9]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // ETH, SUP, ED 12
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=13 uh9]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // ETH, SUP, ED 13
@@ -1284,15 +1284,15 @@ ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=15 uh9]: %DARK_GREEN%%NAME%%BLUE% +15%ED
 //
 //      Diadem
 //
-ItemDisplay[NMAG !INF !ETH !RW !SUP SOCK=0 ci3]: %WHITE%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // 0 OS
-ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // 3 OS
+ItemDisplay[NMAG !INF !ETH !RW !SUP SOCK=0 ci3]: %DARK_GREEN%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // 0 OS
+ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ci3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 3 OS
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED>0 ED<12 ci3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP, ED 1-11
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=12 ci3]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP, ED 12
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=13 ci3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ED 13
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=14 ci3]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ED 14
 ItemDisplay[NMAG !INF !ETH !RW SOCK=3 ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ED 15
-ItemDisplay[NMAG !INF ETH !SUP !RW SOCK=0 ci3]: %WHITE%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // ETH, 0 OS
-ItemDisplay[NMAG !INF ETH !RW SOCK=3 ci3]: %WHITE%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
+ItemDisplay[NMAG !INF ETH !SUP !RW SOCK=0 ci3]: %DARK_GREEN%%NAME%{%GOLD% Perfect Sapphire for sockets%NL%Cube w/ Ral Rune + Thul Rune +} %DOT-1E%%PX-00% // ETH, 0 OS
+ItemDisplay[NMAG !INF ETH !RW SOCK=3 ci3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 3 OS
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED>0 ED<12 ci3]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // ETH, SUP, ED 1-11
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=12 ci3]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // ETH, SUP, ED 12
 ItemDisplay[NMAG !INF ETH !RW SOCK=3 ED=13 ci3]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // ETH, SUP, ED 13
