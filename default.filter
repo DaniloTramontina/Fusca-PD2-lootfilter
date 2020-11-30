@@ -176,11 +176,9 @@ ItemDisplay[wss]: %GOLD%####  %NAME%  %GOLD%#####%MAP-62% // Worldstone Shard
 ItemDisplay[lbox]: %GOLD%####  %NAME%  %GOLD%####%MAP-62% // Larzuk's Box
 //
 // Mapas - Maps
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18)]: %RED%+%WHITE%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} 
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG !ID]: %RED%+%BLUE%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} 
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG ID]: %RED%+%BLUE%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} 
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) RARE !ID]: %RED%+%YELLOW%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75}
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) RARE ID]: %RED%+%YELLOW%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75}  
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18)]: %RED%+%WHITE%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} 
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18)]: %RED%+%BLUE%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} 
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18)]: %RED%+%YELLOW%%NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75}  
 //
 //
 //
