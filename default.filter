@@ -86,16 +86,8 @@ ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 //
 // REJUV POTION
 ItemDisplay[rvl]: %PURPLE%R = %WHITE%65%
-ItemDisplay[rvs]: %PURPLE%r = %WHITE%35%
-// Essas poções sempre aparecem. - These potions always appear;
-//
-// Se quiser que a de 35% pare de aparecer a partir de um lvl a sua escolha, coloque // na frente do "ItemDisplay[rvs]: %PURPLE%r = %WHITE%35%" e tire o // do código abaixo e 
-// substitua o x pelo lvl qual você não deseja mais ver. 
-//
-// If you want the 35% to stop appearing from a lvl of your choice, put // in front of "ItemDisplay [rvs]:% PURPLE% r =% WHITE% 35%" and remove the // from the code below and
-// replace x with lvl which you no longer want to see.
-//
-//ItemDisplay[rvs CLVL< x]: //não ira aparecer a partir de um lvl a sua escolha. - will not appear from an lvl of your choice.
+ItemDisplay[rvs CLVL<80 ]: %PURPLE%r = %WHITE%35%
+ItemDisplay[rvs CLVL>79 ]:
 //
 //
 //====================================================================================================================================================================================
@@ -1001,7 +993,7 @@ ItemDisplay[NMAG !ETH !RW SOCK>2 ED=15 xtp]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DO
 //
 //	Dusk Shroud
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 uui DEF>664]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 uui DEF>664]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG !INF ETH !RW SOCK>2 uui DEF>664]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 uui]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 uui]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1021,7 +1013,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uui]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Wyrmhide
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 uea DEF>668]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 uea DEF>668]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG !INF ETH !RW SOCK>2 uea DEF>668]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 uea]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 uea]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1041,7 +1033,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 uea]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00
 //
 //	scarab husk
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 ula DEF>672]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 ula DEF>672]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG !INF ETH !RW SOCK>2 ula DEF>672]: %DARK_GREEN%%NAME%%TAN% High Def%%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 ula]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 ula]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1061,7 +1053,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 ula]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Wire Fleece
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 utu DEF>684]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 utu DEF>684]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG !INF ETH !RW SOCK>2 utu DEF>684]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 utu]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 utu]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1081,7 +1073,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 utu]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Diamond Mail
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 ung DEF>695]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 ung DEF>695]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG !INF ETH !RW SOCK>2 ung DEF>695]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 ung]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 ung]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1101,7 +1093,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 ung]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Loricated Mail
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 ucl DEF>705]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 ucl DEF>705]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG !INF ETH !RW SOCK>2 ucl DEF>705]: %DARK_GREEN%%NAME%%TAN%  High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 ucl]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 ucl]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1121,7 +1113,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 ucl]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Great Hauberk
 //
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 ETH DEF>715 urs]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // ETH, 0 OS
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 ETH DEF>715 urs]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // ETH, 0 OS
 ItemDisplay[NMAG ETH !RW SOCK>2 urs DEF>715]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 urs]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 urs]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1141,7 +1133,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 urs]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Archon Plate
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 utp DEF>730]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 utp DEF>730]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG ETH !RW SOCK>2 utp DEF>730]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 utp]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 utp]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1153,8 +1145,8 @@ ItemDisplay[NMAG ETH !RW SOCK>2 ED=12 utp]: %DARK_GREEN%%NAME%%BLUE% +12%ED  %DO
 ItemDisplay[NMAG ETH !RW SOCK>2 ED=13 utp]: %DARK_GREEN%%NAME%%BLUE% +13%ED %DOT-1E%%PX-00% // SUP, ETH, ED+13
 ItemDisplay[NMAG ETH !RW SOCK>2 ED=14 utp]: %DARK_GREEN%%NAME%%BLUE% +14%ED %DOT-1E%%PX-00% // SUP, ETH, ED+14
 ItemDisplay[NMAG ETH !RW SOCK>2 ED=15 utp]: %DARK_GREEN%%NAME%%BLUE% +15%ED %DOT-1E%%PX-00% // SUP, ETH, ED+15
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 utp]: %DARK_GREEN%%NAME%{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS
-ItemDisplay[NMAG !INF !RW ETH SOCK=0 utp]: %DARK_GREEN%%NAME%{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // ETH, 0 OS
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 utp]: %DARK_GREEN%%NAME%{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 utp]: %DARK_GREEN%%NAME%{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // ETH, 0 OS
 ItemDisplay[NMAG !INF !RW !ETH SOCK>2 utp]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 3 OS
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK>2 utp]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // SUP, 3+ OS
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK>2 utp]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // ETH, 3+ OS
@@ -1163,7 +1155,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 utp]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Kraken Shell
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 uld DEF>744]: %DARK_GREEN% %NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 uld DEF>744]: %DARK_GREEN% %NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG ETH !RW SOCK>2 uld DEF>744]: %DARK_GREEN% %NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 uld]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 uld]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1183,7 +1175,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 uld]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Hellforge Plate
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 ult DEF>754]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 ult DEF>754]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG ETH !RW SOCK>3 ult DEF>754]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 ult]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 ult]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1202,7 +1194,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 ult]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Lacquered Plate
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 uth DEF>768]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 uth DEF>768]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG ETH !RW SOCK>3 uth DEF>768]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED>0 ED<12 uth]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !ETH !RW SOCK>2 ED=12 uth]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1222,7 +1214,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK>2 uth]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00%
 //
 //	Sacred Armor
 //
-ItemDisplay[NMAG ETH !RW SOCK=0 uar DEF>795]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Ral Rune + Amn Rune +}%DOT-1E%%PX-00% // 0 OS, high def
+ItemDisplay[NMAG ETH !RW SOCK=0 uar DEF>795]: %DARK_GREEN%%NAME%%TAN% High Def{%GOLD% Perfect Topaz for sockets%NL%Cube w/ Tal Rune + Thul Rune +}%DOT-1E%%PX-00% // 0 OS, high def
 ItemDisplay[NMAG ETH !RW SOCK>3 uar DEF>795]: %DARK_GREEN%%NAME%%TAN% High Def%DOT-1E%%PX-00% // high def
 ItemDisplay[NMAG !INF !ETH !RW SOCK>2 ED>0 ED<12 uar]: %DARK_GREEN%%NAME%%BLUE% +ED %DOT-1E%%PX-00% // SUP ED 1-11
 ItemDisplay[NMAG !INF !ETH !RW SOCK>2 ED=12 uar]: %DARK_GREEN%%NAME%%BLUE% +12%ED %DOT-1E%%PX-00% // SUP ED 12
@@ -1347,11 +1339,11 @@ ItemDisplay[CL3 !INF ELT ETH NMAG RES>39 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 40+ R
 //
 //	Crystal Sword
 //
-ItemDisplay[crs !INF !ETH NMAG SOCK>2]: %NAME%%DOT-1E% // 3+ OS
+ItemDisplay[crs !INF !ETH NMAG SOCK>2]: %DARK_GREEN%%NAME%%DOT-1E% // 3+ OS
 ItemDisplay[crs !INF ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E% // ETH, 3+ OS
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[crs NMAG !INF !SUP SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Larzuk or Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
-ItemDisplay[crs !ETH !RW !INF !SUP NMAG ED=15 (SOCK=0 OR SOCK>2)]: %NAME%%BLUE% 15%ED %DOT-1E%%PX-00% // SUP, ED +15, 0 OS , 3+ OS
+ItemDisplay[crs NMAG !INF !SUP SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Larzuk or Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
+ItemDisplay[crs !ETH !RW !INF !SUP NMAG ED=15 (SOCK=0 OR SOCK>2)]: %DARK_GREEN%%NAME%%BLUE% 15%ED %DOT-1E%%PX-00% // SUP, ED +15, 0 OS , 3+ OS
 //
 //
 //	Broad Sword
@@ -1359,7 +1351,7 @@ ItemDisplay[crs !ETH !RW !INF !SUP NMAG ED=15 (SOCK=0 OR SOCK>2)]: %NAME%%BLUE% 
 ItemDisplay[bsd !INF CLVL<55 !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4 OS
 ItemDisplay[bsd !INF CLVL>54 !ETH NMAG SOCK=4]: //para de aparecer no lvl 54 - stop appearing at lvl 54
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[bsd !INF !ETH !SUP !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Larzuk or Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
+ItemDisplay[bsd !INF !ETH !SUP !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Larzuk or Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
 //
 //
 //	Long Sword
@@ -1368,7 +1360,7 @@ ItemDisplay[lsd !INF ETH NMAG SOCK=3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH
 ItemDisplay[lsd !INF CLVL<55 !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% //4 OS
 ItemDisplay[lsd !INF CLVL>54 !ETH NMAG SOCK=4]://para de aparecer no lvl 54 - stop appearing at lvl 54
 //Larzuk Gaurantee = SPIRIT
-ItemDisplay[lsd !INF NMAG !SUP !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Larzuk or Cube w/ Tal Rune + Anm Rune +}}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
+ItemDisplay[lsd !INF NMAG !SUP !ETH !RW SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Larzuk or Cube w/ Ral Rune + Anm Rune +}}%DOT-1E%%PX-00% //LARZUK SPIRIT, 0 OS
 //
 //
 //	Dimensional Blade
@@ -1380,7 +1372,7 @@ ItemDisplay[9cr !INF ETH NMAG SOCK>2]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH
 //
 //	Phase Blade
 //
-ItemDisplay[7cr !INF !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% // 0 OS
+ItemDisplay[7cr !INF !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% // 0 OS
 ItemDisplay[7cr !INF !RW NMAG SOCK>2]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 3+ OS
 ItemDisplay[7cr !INF !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%%DOT-1E%%PX-00% //SUP, ED 1-11, 3+ OS
 ItemDisplay[7cr !INF !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 3+ OS
@@ -1388,7 +1380,7 @@ ItemDisplay[7cr !INF !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DO
 //
 //	Conquest Sword 
 //
-ItemDisplay[7bs !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0OS
+ItemDisplay[7bs !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0OS
 ItemDisplay[7bs !INF ETH !RW NMAG SOCK=3]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% //ETH, 3OS
 ItemDisplay[7bs !INF ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ETH, ED 1-13, 3 OS
 ItemDisplay[7bs !INF ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ETH, ED 14+, 3OS
@@ -1396,7 +1388,7 @@ ItemDisplay[7bs !INF ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED
 //
 //	Cryptic Sword
 //
-ItemDisplay[7ls !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %DOT-1E%%PX-00% //ETH, 0OS
+ItemDisplay[7ls !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %DOT-1E%%PX-00% //ETH, 0OS
 ItemDisplay[7ls !INF ETH !RW NMAG SOCK=3]: %DARK_GREEN% %NAME% %DOT-1E%%PX-00% // ETH, 3OS
 ItemDisplay[7ls !INF !ETH !RW NMAG ED>0 ED<14 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-13, 3 OS
 ItemDisplay[7ls !INF !ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED+ %PURPLE%%DOT-1E%%PX-00% // SUP, ED 14+, 3OS
@@ -1409,9 +1401,9 @@ ItemDisplay[7ls !INF ETH !RW NMAG ED>13 SOCK=3]: %DARK_GREEN% %NAME%%BLUE% 14%ED
 //
 //	Legend Sword 
 //
-ItemDisplay[72h !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %DOT-1E%%PX-00%// 0 OS
+ItemDisplay[72h !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %DOT-1E%%PX-00%// 0 OS
 ItemDisplay[72h !INF !ETH !RW NMAG SOCK=3]: %DARK_GREEN%%NAME% %GRAY%%DOT-1E%%PX-00% // 3 OS
-ItemDisplay[72h !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %DOT-1E%%PX-00%// ETH, 0 OS
+ItemDisplay[72h !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %DOT-1E%%PX-00%// ETH, 0 OS
 ItemDisplay[72h !INF ETH !RW NMAG SOCK=3]: %DARK_GREEN%%NAME% %GRAY%%DOT-1E%%PX-00% // ETH, 3 OS
 ItemDisplay[72h !INF !ETH !RW NMAG ED>0 ED<12 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, 3 OS
 ItemDisplay[72h !INF !ETH !RW NMAG ED>11 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, OS
@@ -1421,9 +1413,9 @@ ItemDisplay[72h !INF ETH !RW NMAG ED>11 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //	Colossus Sword
 //
-ItemDisplay[7fb !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %NAME% %WHITE% // 0 OS
+ItemDisplay[7fb !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %NAME% %WHITE% // 0 OS
 ItemDisplay[7fb !INF !ETH !RW NMAG SOCK>2]: %DARK_GREEN% %NAME% %WHITE% // 3+ OS
-ItemDisplay[7fb !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %NAME% %WHITE% // ETH, 0 OS
+ItemDisplay[7fb !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %NAME% %WHITE% // ETH, 0 OS
 ItemDisplay[7fb !INF ETH !RW NMAG SOCK>2]: %DARK_GREEN% %NAME% %WHITE% // ETH, 3+ OS
 ItemDisplay[7fb !INF !ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 3+ OS
 ItemDisplay[7fb !INF !ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 3+ OS
@@ -1433,9 +1425,9 @@ ItemDisplay[7fb !INF ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+
 //
 //	Colossus Blade
 //
-ItemDisplay[7gd !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %WHITE% // 0 OS
+ItemDisplay[7gd !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %WHITE% // 0 OS
 ItemDisplay[7gd !INF !ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %WHITE% // 3+ OS
-ItemDisplay[7gd !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %WHITE% // ETH, 0 OS
+ItemDisplay[7gd !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %WHITE% // ETH, 0 OS
 ItemDisplay[7gd !INF ETH !RW NMAG SOCK>2]: %DARK_GREEN%%NAME% %WHITE% // ETH, 3+ OS
 ItemDisplay[7gd !INF !ETH !RW NMAG ED>0 ED<12 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% ED %WHITE%[%SOCKETS%%DOT-1E%%PX-00%] // SUP, ED 1-11, 3+ OS
 ItemDisplay[7gd !INF !ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 3+ OS
@@ -1445,9 +1437,9 @@ ItemDisplay[7gd !INF ETH !RW NMAG ED>11 SOCK>2]: %DARK_GREEN%%NAME%%BLUE% 14%ED+
 //
 // 17.6 AXES  COD: 0091706
 //
-ItemDisplay[7wa !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}  %DOT-1E%// 0 OS
+ItemDisplay[7wa !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}  %DOT-1E%// 0 OS
 ItemDisplay[7wa !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%  %DOT-1E% // 4+ OS
-ItemDisplay[7wa !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}  %DOT-1E% // ETH, 0 OS
+ItemDisplay[7wa !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}  %DOT-1E% // ETH, 0 OS
 ItemDisplay[7wa !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%  %DOT-1E% // ETH, 4+ OS
 ItemDisplay[7wa !INF !ETH !RW NMAG ED>0 ED<12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00%] // SUP, ED 1-11, 4+ OS
 ItemDisplay[7wa !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 14%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, 4+ OS
@@ -1594,8 +1586,8 @@ ItemDisplay[9wc !INF ETH !RW NMAG ED=15 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% +15%ED
 //
 //	Thresher 
 //
-ItemDisplay[7s8 !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7s8 !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7s8 !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7s8 !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
 ItemDisplay[7s8 !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7s8 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7s8 !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
@@ -1606,8 +1598,8 @@ ItemDisplay[7s8 !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //	Cryptic Axe 
 //
-ItemDisplay[7pa !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7pa !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7pa !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7pa !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
 ItemDisplay[7pa !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7pa !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7pa !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
@@ -1618,9 +1610,6 @@ ItemDisplay[7pa !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //	Great Poleaxe
 //
-ItemDisplay[7h7 !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7h7 !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
-ItemDisplay[7h7 !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7h7 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7h7 !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
 ItemDisplay[7h7 !INF !ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+ %DOT-1E%%PX-00% //SUP, ED 12+, 4+ OS
@@ -1630,8 +1619,8 @@ ItemDisplay[7h7 !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //Giant Thresher
 //
-ItemDisplay[7wc !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7wc !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7wc !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7wc !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN% %NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
 ItemDisplay[7wc !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7wc !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7wc !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
@@ -1644,8 +1633,8 @@ ItemDisplay[7wc !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //	Mancatcher 
 //
-ItemDisplay[7br !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7br !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7br !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7br !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
 ItemDisplay[7br !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7br !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7br !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
@@ -1656,8 +1645,8 @@ ItemDisplay[7br !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //	Ghost Spear
 //
-ItemDisplay[7st !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7st !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7st !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7st !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
 ItemDisplay[7st !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7st !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7st !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% ED%DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
@@ -1668,8 +1657,8 @@ ItemDisplay[7st !INF ETH !RW NMAG ED>11 SOCK>3]: %DARK_GREEN%%NAME%%BLUE% 12%ED+
 //
 //	War Pike
 //
-ItemDisplay[7p7 !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
-ItemDisplay[7p7 !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
+ItemDisplay[7p7 !INF !ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //0 OS
+ItemDisplay[7p7 !INF ETH !SUP !RW NMAG SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% //ETH, 0 OS
 ItemDisplay[7p7 !INF !ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // 4+ OS
 ItemDisplay[7p7 !INF ETH !RW NMAG SOCK>3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // ETH, 4+ OS
 ItemDisplay[7p7 !INF !ETH !RW NMAG ED>1 ED <12 SOCK>3]: %%DARK_GREEN%%NAME%%BLUE% ED %DOT-1E%%PX-00% //SUP, ED 1-11, 4+ OS
@@ -1690,7 +1679,7 @@ ItemDisplay[WP11 !INF NMAG SOCK=2 SK47>2 CLVL>34]: //para de aparecer no lvl 35 
 //
 //	Ashwood Bow
 //
-ItemDisplay[am6 !INF NMAG !SUP TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-1E%%PX-00% // +3 bow, 0 OS
+ItemDisplay[am6 !INF NMAG !SUP TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-1E%%PX-00% // +3 bow, 0 OS
 ItemDisplay[am6 !INF NMAG TABSK0>2 SOCK=3]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 3 OS
 ItemDisplay[am6 !INF NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME%%DOT-1E%%PX-00% // +3 bow, 4 OS
 ItemDisplay[am6 !INF NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
@@ -1699,7 +1688,7 @@ ItemDisplay[am6 !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED
 //
 //	Matriarchal Bow
 //
-ItemDisplay[amb !INF NMAG !SUP TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %DOT-1E%%PX-00% // +3 bow, 0 OS
+ItemDisplay[amb !INF NMAG !SUP TABSK0>2 SOCK=0]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %DOT-1E%%PX-00% // +3 bow, 0 OS
 ItemDisplay[amb !INF NMAG TABSK0>2 SOCK=3]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 3 OS
 ItemDisplay[amb !INF NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 4 OS
 ItemDisplay[amb !INF NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
@@ -1708,7 +1697,7 @@ ItemDisplay[amb !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED
 //
 //	Grand Matron Bow
 //
-ItemDisplay[amc !INF NMAG !SUP TABSK0>2 SOCK=0]:%DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %DOT-1E%%PX-00% // +3 bow, 0 OS
+ItemDisplay[amc !INF NMAG !SUP TABSK0>2 SOCK=0]:%DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %DOT-1E%%PX-00% // +3 bow, 0 OS
 ItemDisplay[amc !INF NMAG TABSK0>2 SOCK=4]: %DARK_GREEN%%NAME% %DOT-1E%%PX-00% // +3 bow, 4 OS
 ItemDisplay[amc !INF NMAG TABSK0>2 ED>0 ED<12SOCK>3]: %DARK_GREEN%%NAME% BLUE% ED %DOT-1E%%PX-00% // SUP, ED 1-11, +3 bow, 4 OS
 ItemDisplay[amc !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED+ %DOT-1E%%PX-00% // SUP, ED 12+, +3 bow, 4 OS
@@ -1720,15 +1709,15 @@ ItemDisplay[amc !INF NMAG TABSK0>2 ED>11 SOCK>3]: %DARK_GREEN%%NAME% BLUE% 12%ED
 //      +3 Death Sentry variants + 3 OS OR 0 OS
 //
 ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 SK276>2 SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, DS
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Burst of Speed
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Chain Lightning Sentry
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Fade
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK366>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Lightning Sentry
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 SK276>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Burst of Speed
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Chain Lightning Sentry
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Fade
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK366>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Lightning Sentry
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Burst of Speed
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Chain Lightning Sentry
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Fade
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK276>2 AND SK366>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Lightning Sentry
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 SK276>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Burst of Speed
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Chain Lightning Sentry
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Fade
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK276>2 AND SK366>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, DS & Lightning Sentry
 
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 SK276>2 SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, DS
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 (SK276>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, DS & Burst of Speed
@@ -1744,20 +1733,20 @@ ItemDisplay[NMAG ETH !INF !RW SOCK=3 (SK276>2 AND SK366>0) SIN]: %DARK_GREEN%%NA
 //
 //      +3 Lightning Sentry variants + 3 OS OR 0 OS
 //
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 SK366>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK277>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Blade Shield
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Burst of Speed
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Chain Lightning Sentry
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Death Sentry
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Fade
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK273>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Mind Blast
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 SK366>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK277>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Blade Shield
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Burst of Speed
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Chain Lightning Sentry
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Death Sentry
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Fade
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK273>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Mind Blast
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 SK366>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK277>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Blade Shield
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Burst of Speed
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Death Sentry
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Fade
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK366>2 AND SK273>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Mind Blast
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 SK366>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK277>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Blade Shield
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Burst of Speed
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK271>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Death Sentry
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Fade
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK366>2 AND SK273>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, LS & Mind Blast
 
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 SK366>2 SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, LS
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 (SK366>2 AND SK277>0) SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, LS & Blade Shield
@@ -1777,18 +1766,18 @@ ItemDisplay[NMAG ETH !INF !RW SOCK=3 (SK366>2 AND SK273>0) SIN]: %DARK_GREEN%%NA
 //
 //      +3 Mind Blast variants + 3 OS OR 0 OS
 //
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 SK273>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast 
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Burst of Speed
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Fade
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK279>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Shadow Master
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK263>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Weapon Block
-ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK253>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Psychic Hammer
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 SK273>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast 
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Burst of Speed
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Fade
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK279>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Shadow Master
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK263>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Weapon Block
-ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK253>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Psychic Hammer
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 SK273>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast 
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Fade
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK279>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Shadow Master
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK263>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Weapon Block
+ItemDisplay[NMAG !SUP !ETH !INF !RW SOCK=0 (SK273>2 AND SK253>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Psychic Hammer
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 SK273>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast 
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Fade
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK279>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Shadow Master
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK263>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Weapon Block
+ItemDisplay[NMAG !SUP ETH !INF !RW SOCK=0 (SK273>2 AND SK253>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Mind Blast & Psychic Hammer
 
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 SK273>2 SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, Mind Blast 
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 (SK273>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, Mind Blast & Burst of Speed
@@ -1806,18 +1795,18 @@ ItemDisplay[NMAG ETH !INF !RW SOCK=3 (SK273>2 AND SK253>0) SIN]: %DARK_GREEN%%NA
 //
 //      +3 Wake of Fire variants + 3 OS OR 0 OS
 //
-ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 SK262>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire
-ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SKSK251>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fire Blast
-ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Death Sentry
-ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK272>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Wake of Inferno
-ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Burst of Speed
-ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fade
-ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 SK262>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire
-ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SKSK251>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fire Blast
-ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Death Sentry
-ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK272>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +} %DOT-20%%PX-00% // All tiers, Wake of Fire + Wake of Inferno
-ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Burst of Speed
-ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fade
+ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 SK262>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire
+ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SKSK251>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fire Blast
+ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Death Sentry
+ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK272>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Wake of Inferno
+ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Burst of Speed
+ItemDisplay[NMAG !ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fade
+ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 SK262>2 SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire
+ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SKSK251>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fire Blast
+ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK276>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Death Sentry
+ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK272>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +} %DOT-20%%PX-00% // All tiers, Wake of Fire + Wake of Inferno
+ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK258>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Burst of Speed
+ItemDisplay[NMAG ETH !INF !SUP !RW SOCK=0 (SK262>2 AND SK267>0) SIN]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00% // All tiers, Wake of Fire + Fade
 
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 SK262>2 SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, Wake of Fire
 ItemDisplay[NMAG !ETH !INF !RW SOCK=3 (SK262>2 AND SKSK251>0) SIN]: %DARK_GREEN%%NAME%%DOT-20%%PX-00% // All tiers, Wake of Fire + Fire Blast
@@ -1870,19 +1859,19 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %
 //
 // +3 holy bolt + 0 OS or 4 OS (HOTO)
 //
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 0 OS
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 0 OS
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 4 OS
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 4 OS, SUP
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 0 OS, ETH
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 0 OS, ETH
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 4 OS, ETH
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SK101>2 SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, 4 OS, SUP, ETH
 //
 // +3 holy bolt + 2/3 fist of heaven + 0 OS or 4 OS (HOTO)
 //
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 0 OS
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 0 OS
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 4 OS
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 4 OS, SUP
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Tal Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 0 OS, ETH
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%{%GOLD% Perfect Amethyst for sockets%NL%Cube w/ Ral Rune + Anm Rune +}%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 0 OS, ETH
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 4 OS, ETH
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (SK101>2 AND SK121>1) SCEPTER]: %DARK_GREEN%%NAME%%DOT-20%%PX-00%%CONTINUE% // +3 holy bolt, + 2/3 fist of heaven, 4 OS, SUP, ETH
 //
